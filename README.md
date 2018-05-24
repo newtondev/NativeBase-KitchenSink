@@ -1,10 +1,11 @@
-# NativeBase KitchenSink v2.2.1
+# NativeBase KitchenSink v2.5.0
 An example app with all the UI components of NativeBase
 
-> **NativeBase-KitchenSink** comes in three forms of app for you!
+> **NativeBase-KitchenSink** comes in four forms of app for you!
 >1. Pure React Native App with `react-navigation` on branch **[master](https://github.com/GeekyAnts/NativeBase-KitchenSink)**
 >2. Pure React Native App with `RNRF` on branch **[RNRF](https://github.com/GeekyAnts/NativeBase-KitchenSink/tree/RNRF)**
 >3. An Expo app with `CRNA` and `react-navigation` on branch **[CRNA](https://github.com/GeekyAnts/NativeBase-KitchenSink/tree/CRNA)**
+>4. A React App with `NativeBase for web` on branch **[web-support](https://github.com/GeekyAnts/NativeBase-KitchenSink/tree/web-support)**
 
 >Find the installation guide in `ReadMe` of appropriate branches
 
@@ -12,70 +13,32 @@ An example app with all the UI components of NativeBase
 
 iOS | Android
  :--:| :-----:
- ![ios-demo](./screenshots/iOS.gif) | ![android-demo](./screenshots/Android.gif)
+ ![ios-demo](https://github.com/GeekyAnts/NativeBase-KitchenSink/raw/master/screenshots/iOS.gif) | ![android-demo](https://github.com/GeekyAnts/NativeBase-KitchenSink/raw/master/screenshots/Android.gif)
 
+## Installation
 
-[NativeBase](http://nativebase.io/) is a free and open source framework that enables developers to build high-quality apps using [React Native](https://facebook.github.io/react-native/) for iOS and Android with a fusion of ES6. NativeBase builds a layer on top of React Native that provides you with basic set of components for mobile application development. This helps you to build world-class application experiences on native platforms.
-
-NativeBase without a doubt fits in well with mobile applications which cut downs one huge part of your app - The Front end.
-The applications stack of components is built using native UI components, so there are no compromises with the user experience.
-
-
-## Get Started
-
-
-#### 1. Installation
-
-On the command prompt run the following commands
-
-```sh
-$ git clone git@github.com:GeekyAnts/NativeBase-KitchenSink.git
-
-$ cd NativeBase-KitchenSink/
-
-$ npm install
-
-$ react-native link
+*	**Clone and install packages**
+```
+git clone git@github.com:GeekyAnts/NativeBase-KitchenSink.git
+cd NativeBase-KitchenSink
+yarn
+react-native link react-native-vector-icons
 ```
 
-#### 2. Simulate for iOS
-
-**Method One**
-
-*	Open the project in Xcode from **ios/NativebaseKitchenSink.xcodeproj**.
-
-*	Hit the play button.
-
-
-**Method Two**
-
-*	Run the following command in your terminal.
-
-```sh
-$ react-native run-ios
-```
-
-#### 3. Simulate for Android
-
-*	Make sure you have an **Android emulator** installed and running.
-
-*	Run the following command in your terminal.
-
-```sh
-$ react-native run-android
-```
-#### 4. Exponent
-
-* Get a quick look of the NativeBase components using <a href="https://getexponent.com/">Exponent</a>
-
-*  Link https://exp.host/@geekyants/nativebasekitchensink
-
-## Quick Links to NativeBase
-
-*	[NativeBase Website](http://nativebase.io)
-*	[NativeBase Documentation](http://nativebase.io/documentation)
-*	[NativeBase on Twitter](https://twitter.com/NativeBaseIO)
-*	[NativeBase Blog](https://medium.com/nativebase-io-blog)
+*	**Run on iOS**
+	*	Opt #1:
+		*	Open the project in Xcode from `ios/NativeBase-KitchenSink.xcodeproj`
+		*	Click `run` button to simulate
+	*	Opt #2:
+		*	Run `react-native run-ios` in your terminal
 
 
-For apps with more advanced designs using NativeBase, please visit **[NativeBase Market](https://market.nativebase.io)**.
+*	**Run on Android**
+	*	Make sure you have an `Android emulator` installed and running
+	*	Run `react-native run-android` in your terminal
+
+
+
+## BuilderX
+
+Another major project by us is [BuilderX](https://builderx.io/?utm_source=github&utm_medium=kitchensink&utm_campaign=kitchensink), a screen design tool which codes React Native for you.
